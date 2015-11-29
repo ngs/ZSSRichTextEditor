@@ -104,6 +104,10 @@ static Class hackishFixClass = Nil;
 
 @implementation ZSSRichTextEditor
 
+- (void)setToolbarHidden:(BOOL)hidden {
+    self.toolbarHolder.hidden = hidden;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

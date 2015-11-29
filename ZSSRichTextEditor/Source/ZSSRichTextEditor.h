@@ -90,6 +90,8 @@ static NSString * const ZSSRichTextEditorToolbarNone = @"com.zedsaid.toolbaritem
  */
 @property (nonatomic, strong) UIColor *toolbarItemSelectedTintColor;
 
+- (void)setToolbarHidden:(BOOL)hidden;
+
 /**
  *  Sets the HTML for the entire editor
  *
