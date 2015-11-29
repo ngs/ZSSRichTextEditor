@@ -828,7 +828,7 @@ static Class hackishFixClass = Nil;
             UITextField *title = [alertController.textFields objectAtIndex:1];
             if (!self.selectedLinkURL) {
                 [self insertLink:linkURL.text title:title.text];
-                NSLog(@"insert link");
+                // NSLog(@"insert link");
             } else {
                 [self updateLink:linkURL.text title:title.text];
             }
@@ -1084,8 +1084,8 @@ static Class hackishFixClass = Nil;
     
     
     NSString *urlString = [[request URL] absoluteString];
-    NSLog(@"web request");
-    NSLog(@"%@", urlString);
+    // NSLog(@"web request");
+    // NSLog(@"%@", urlString);
     if (navigationType == UIWebViewNavigationTypeLinkClicked) {
         return NO;
     } else if ([urlString rangeOfString:@"callback://0/"].location != NSNotFound) {
