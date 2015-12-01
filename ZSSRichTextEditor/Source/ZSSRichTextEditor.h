@@ -199,5 +199,6 @@ static NSString * const ZSSRichTextEditorToolbarNone = @"com.zedsaid.toolbaritem
 // Custom public
 
 - (void)enableToolbarItems:(BOOL)enable;
+- (NSArray *)itemsForToolbar;
 
 @end
