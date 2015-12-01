@@ -98,7 +98,6 @@ static Class hackishFixClass = Nil;
 @property (nonatomic) BOOL editorLoaded;
 - (NSString *)removeQuotesFromHTML:(NSString *)html;
 - (NSString *)tidyHTML:(NSString *)html;
-- (void)enableToolbarItems:(BOOL)enable;
 - (BOOL)isIpad;
 @end
 
